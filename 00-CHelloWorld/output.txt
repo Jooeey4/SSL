@@ -1,0 +1,3 @@
+sysone@Sysone ~/Documents/joan/UTN/Sintaxis y Semántica de los Lenguajes/TPs/SSL/00-CHelloWorld $ ./out/hello 
+Hello, World!
+
