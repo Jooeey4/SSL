@@ -18,3 +18,5 @@
 2. gcc -E -std=c11 hello2.c -o hello2.i
 Observación: Vemos como en el archivo hello2.i se reemplaza el include de stdio por su contenido. Vemos como se reemplazan los comentario por espacio.
 
+4. Los tres puntos significan que la función recibe una cantidad n de parámetros
+
