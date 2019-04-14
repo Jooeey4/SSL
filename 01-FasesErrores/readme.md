@@ -55,3 +55,8 @@ Luego, en diferencia al archivo hello2.i, vemos que al no incluir 'stdio.h' no a
 
 **Comando:** gcc -S hello4.c
 **Observación:** En el archivo 'hello4.s' vemos el código en assembler
+
+### Ejercicio 9
+
+**Comando:** as -o hello4.o hello4.s 
+**Observación:** Genera el archivo 'hello4.o' que es binario con el código máquina.
