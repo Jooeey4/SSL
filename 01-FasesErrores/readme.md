@@ -85,3 +85,14 @@ Lo que vemos es que al no pasarle por parametro la variable con un valor, lo rel
 > joan@joan-desktop:~/Documents/utn/sintaxis/SSL/01-FasesErrores$ ./hello6.exe 
 >
 > La respuesta es 42
+
+### Ejercicio 14
+
+**Comando:** gcc hello7.c -o hello7.exe
+**Observación:** Muestra por pantalla lo siguiente:
+
+> joan@joan-desktop:~/Documents/utn/sintaxis/SSL/01-FasesErrores$ ./hello6.exe 
+>
+> La respuesta es 42
+
+Muestra por pantalla un 'warning' diciendo que hay una declaración implicita de la función 'printf'. Igualmente, funciona ya que por default, se vincula contra la libreria estandar, la cual incliye a 'stdio.h'.
