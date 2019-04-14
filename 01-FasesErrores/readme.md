@@ -60,3 +60,8 @@ Luego, en diferencia al archivo hello2.i, vemos que al no incluir 'stdio.h' no a
 
 **Comando:** as -o hello4.o hello4.s 
 **Observación:** Genera el archivo 'hello4.o' que es binario con el código máquina.
+
+### Ejercicio 10
+
+**Comando:** ld -o hello4 hello4.o
+**Observación:** Falla al crear el ejecutable porque no esta definida la referencia a la función 'printf'.
