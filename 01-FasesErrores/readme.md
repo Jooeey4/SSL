@@ -50,3 +50,8 @@ Luego, en diferencia al archivo hello2.i, vemos que al no incluir 'stdio.h' no a
 ### Ejercicio 6
 
 **Comando:** gcc -S hello3.c
+
+### Ejercicio 8
+
+**Comando:** gcc -S hello4.c
+**Observación:** En el archivo 'hello4.s' vemos el código en assembler
