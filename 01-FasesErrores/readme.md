@@ -65,3 +65,12 @@ Luego, en diferencia al archivo hello2.i, vemos que al no incluir 'stdio.h' no a
 
 **Comando:** ld -o hello4 hello4.o
 **Observación:** Falla al crear el ejecutable porque no esta definida la referencia a la función 'printf'.
+
+### Ejercicio 12
+
+**Comando:** gcc hello5.c -o hello5.exe
+**Observación:** Muestra por pantalla lo siguiente:
+
+> La respuesta es 1450851288
+
+Lo que vemos es que al no pasarle por parametro la variable con un valor, lo rellena con un valor random.
