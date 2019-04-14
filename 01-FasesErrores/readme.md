@@ -71,6 +71,17 @@ Luego, en diferencia al archivo hello2.i, vemos que al no incluir 'stdio.h' no a
 **Comando:** gcc hello5.c -o hello5.exe
 **Observación:** Muestra por pantalla lo siguiente:
 
+> joan@joan-desktop:~/Documents/utn/sintaxis/SSL/01-FasesErrores$ ./hello5.exe 
+>
 > La respuesta es 1450851288
 
 Lo que vemos es que al no pasarle por parametro la variable con un valor, lo rellena con un valor random.
+
+### Ejercicio 13
+
+**Comando:** gcc hello6.c -o hello6.exe
+**Observación:** Muestra por pantalla lo siguiente:
+
+> joan@joan-desktop:~/Documents/utn/sintaxis/SSL/01-FasesErrores$ ./hello6.exe 
+>
+> La respuesta es 42
