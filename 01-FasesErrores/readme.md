@@ -47,3 +47,6 @@ Los tres puntos significan que la función recibe una cantidad n de parámetros
 
 Luego, en diferencia al archivo hello2.i, vemos que al no incluir 'stdio.h' no agrega tanto contenido dentro.
 
+### Ejercicio 6
+
+**Comando:** gcc -S hello3.c
